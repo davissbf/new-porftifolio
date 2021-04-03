@@ -9,18 +9,20 @@ import gamedev from '../img/game-dev.svg';
 
 const AboutPage = () => (
   <div className="AboutPage">
-    <Tittle title={'About Me'} span={'About Me'} />
+    <Tittle title={'Sobre Mim'} span={'Sobre Mim'} />
     <ImageSection />
-    <Tittle title={'My Skills'} span={'My Skills'} />
+    <Tittle title={'Minhas Habilidades'} span={'Minhas Habilidades'} />
     <div className="skillsContainer">
       <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-      <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
+      <SkillsSection skill={'Typescript'} progress={'60%'} width={'60%'} />
       <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-      <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-      <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-      <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-      <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-      <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
+      <SkillsSection skill={'Node Js'} progress={'70%'} width={'70%'} />
+      <SkillsSection skill={'Python'} progress={'40%'} width={'40%'} />
+      <SkillsSection skill={'Docker'} progress={'40%'} width={'40%'} />
+      <SkillsSection skill={'React Native'} progress={'20%'} width={'20%'} />
+      <SkillsSection skill={'Flutter'} progress={'20%'} width={'20%'} />
+      <SkillsSection skill={'Ionic'} progress={'20%'} width={'20%'} />
+      <SkillsSection skill={'Web Design'} progress={'55%'} width={'55%'} />
       <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
     </div>
 
@@ -28,18 +30,18 @@ const AboutPage = () => (
     <div className="servives-container">
       <ServicesSection
         image={design}
-        title={'Web design'}
-        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        title={'Full Stack Web'}
+        text={'Desenvolvedor FullStack.'}
       />
       <ServicesSection
         image={intelligence}
-        title={'Artificial Intelligence'}
-        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        title={'Mobile'}
+        text={'Desenvolvedor mobile.'}
       />
       <ServicesSection
         image={gamedev}
-        title={'Game Development'}
-        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+        title={'Intusiasta em Pentest'}
+        text={'Pentest.'}
       />
     </div>
   </div>

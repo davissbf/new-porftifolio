@@ -9,32 +9,28 @@ function ImageSection() {
       </div>
       <div className="about-info">
         <h4>
-          I am<span> Lorem Ipsum</span>
+          Eu sou<span> Davi</span>
         </h4>
         <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          necessitatibus perferendis numquam dolorem cumque facilis. Desir per
-          po la ta doso vi slone ve?
+          Em 2020, concluí com sucesso meu curso de Técnico em Informática.
+          Estou na FACULDADE, cursando Sistemas de Informação e no SENAI
+          TAGUATINGA-DF cursando Técnico de Informatica para Internet.
         </p>
         <div className="about-details">
           <div className="left-section">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality</p>
-            <p>Languages</p>
-            <p>Address</p>
-            <p>Countries</p>
+            <p>Nome Completo</p>
+            <p>Idade</p>
+            <p>Nacionalidade</p>
+            <p>Localidade</p>
           </div>
           <div className="right-section">
-            <p>: Lorem Ipsum</p>
-            <p>: 50</p>
-            <p>: French</p>
-            <p>: French, Spanish, English</p>
-            <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-            <p>: France, Spain, Germany</p>
+            <p>: Davi Souza da Silva Bonfim</p>
+            <p>: 21</p>
+            <p>: Brasileiro</p>
+            <p>: Ceilândia</p>
           </div>
         </div>
-        <button className="btn">Download Cv</button>
+        <button className="btn">Download Curriculum</button>
       </div>
     </div>
   );

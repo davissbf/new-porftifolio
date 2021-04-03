@@ -2,6 +2,7 @@ import React from 'react';
 
 const SocialIcons = () => (
   <ul className="list">
+    Aqui é o Footer
     <li className="itens-list">
       <a
         href="https://www.linkedin.com/in/davi-souza-667497195/"

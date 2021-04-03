@@ -12,12 +12,12 @@
       width: 100%;
       text-align: center;
       margin-top: 1rem;
-      border-bottom: 1px solid #333;
+      border-bottom: 1px solid rgba(49, 49, 49, 0.568);
 
       img {
         width: 70%;
         border-radius: 100%;
-        border: 5px solid #333;
+        border: 5px solid #474448;
         margin-bottom: 1rem;
       }
     }
@@ -59,7 +59,7 @@
 
     .footer {
       width: 100%;
-      border-top: 1px solid #333;
+      border-top: 1px solid rgba(49, 49, 49, 0.568);
 
       p {
         text-align: center;

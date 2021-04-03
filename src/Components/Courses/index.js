@@ -23,9 +23,9 @@ const Courses = () => (
       <div className="content">
         <div className="contentBx">
           <h3>
-            HighScool
+            Universidade
             <br />
-            <span>System Information</span>
+            <span>Sistema de Informação</span>
           </h3>
         </div>
         <ul className="sci">
@@ -52,7 +52,7 @@ const Courses = () => (
       <div className="content">
         <div className="contentBx">
           <h3>
-            Technician
+            Técnico
             <br />
             <span>Senai</span>
           </h3>

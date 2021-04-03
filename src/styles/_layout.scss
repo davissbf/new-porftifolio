@@ -2,10 +2,10 @@
   .sidebar {
     width: 16%;
     height: 100vh;
-    background-color: #131419;
+    background: rgb(22, 24, 31);
     position: fixed;
     z-index: 11;
-    border-right: 1px solid rgba(68, 68, 68, 0.568);
+    border-right: 1px solid rgba(49, 49, 49, 0.568);
     transform-origin: left;
 
     @media screen and (max-width: 1000px) {
@@ -28,7 +28,7 @@
   .main-content {
     width: 84%;
     margin-left: 16%;
-    background-color: #131419;
+    background: linear-gradient(100deg, #1a1517 0%, #1b2024 100%);
     min-height: 100vh;
     display: grid;
     position: relative;
