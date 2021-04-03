@@ -1,30 +1,41 @@
 import React from 'react';
+import { SiGithub } from 'react-icons/si';
+import { GrLinkedin } from 'react-icons/gr';
+import { FaShoppingBag } from 'react-icons/fa';
 
 const SocialIcons = () => (
-  <ul className="list">
-    Aqui é o Footer
-    <li className="itens-list">
-      <a
-        href="https://www.linkedin.com/in/davi-souza-667497195/"
-        className="link-iten"
-      >
-        <span></span>
-      </a>
-    </li>
-    <li className="itens-list">
-      <a href="https://github.com/davissbf" className="link-iten">
-        <span></span>
-      </a>
-    </li>
-    <li className="itens-list">
-      <a
-        href="https://davissbf.github.io/myportifolioreact/"
-        className="link-iten"
-      >
-        <span></span>
-      </a>
-    </li>
-  </ul>
+  <div className="social-icons">
+    <a
+      className="link-item"
+      href="https://github.com/davissbf"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <span>
+        <SiGithub />
+      </span>
+    </a>
+    <a
+      className="link-item"
+      href="https://www.linkedin.com/in/davi-souza-667497195/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <span>
+        <GrLinkedin />
+      </span>
+    </a>
+    <a
+      className="link-item"
+      href="https://davissbf.github.io/myportifolioreact/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <span>
+        <FaShoppingBag />
+      </span>
+    </a>
+  </div>
 );
 
 export default SocialIcons;

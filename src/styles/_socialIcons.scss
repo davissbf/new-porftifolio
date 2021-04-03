@@ -1,21 +1,62 @@
-.list {
+.social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin: 0;
+  text-align: center;
+
+  .link-item{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #292627;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+
+    span {
+      color: rgb(0, 183, 255);
+      line-height: 90px;
+      font-size: 26px;
+      transition: 0.2s linear;
+    }
+
+  }
+
+  .link-item:hover span {
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+
+  .link-item::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #4f9bff;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    z-index: 1;
+  }
+
+  .link-item:hover::before {
+    animation: btnAnimation 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+
+  @keyframes btnAnimation {
+    0%{
+      left: -110%;
+      top: 90%;
+    }50%{
+      left: 10%;
+      top: -30%;
+    }100%{
+      top: -10%;
+      left: -10%;
+    }
+  }
 }
-
-.list-itens {
-  list-style: none;
-}
-
-.list .list-itens .link-iten {
-  width: 40px;
-  height: 40px;
-  display: block;
-  transition: 0.5s;
-  background-color: #ccc;
-}
-
-
