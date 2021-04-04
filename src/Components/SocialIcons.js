@@ -11,9 +11,9 @@ const SocialIcons = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <span>
+      <i>
         <SiGithub />
-      </span>
+      </i>
     </a>
     <a
       className="link-item"
@@ -21,9 +21,9 @@ const SocialIcons = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <span>
+      <i>
         <GrLinkedin />
-      </span>
+      </i>
     </a>
     <a
       className="link-item"
@@ -31,9 +31,9 @@ const SocialIcons = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <span>
+      <i>
         <FaShoppingBag />
-      </span>
+      </i>
     </a>
   </div>
 );

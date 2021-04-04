@@ -15,7 +15,7 @@
     overflow: hidden;
     position: relative;
 
-    span {
+    i {
       color: rgb(0, 183, 255);
       line-height: 90px;
       font-size: 26px;
@@ -24,7 +24,7 @@
 
   }
 
-  .link-item:hover span {
+  .link-item:hover i {
     transform: scale(1.3);
     color: #f1f1f1;
   }
