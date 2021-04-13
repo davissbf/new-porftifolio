@@ -11,16 +11,15 @@ const HomePage = () => (
       </h1>
       <p className="h-sub-text">
         Um programador ousado, sou estudante Full Stack Web Developer com
-        React.js, Redux, Node.js, MySQL, MongoDB e PostgreSQL. E iniciando meus
-        estudos em Desenvolvimento Mobile com ReactNative, Ionic e Flutter.
-        Também estou estudando Python com django, mas primeiro estou me
-        familiarizando com JavScript/TypeScript com NodeJS e, em seguida, me
-        aprofundando em Python com Django. Faço cursos extras para aprimorar
-        meus conhecimentos em desenvolvimento Web e Mobile. Adoro aprender sobre
-        novas tecnologias, quais problemas elas estão resolvendo e como posso
-        usá-las para criar produtos melhores e escaláveis.
+        React.js, Redux, Node.js com JavScript/TypeScript, MySQL, MongoDB e
+        PostgreSQL. E iniciando meus estudos em Desenvolvimento Mobile com
+        ReactNative, Ionic e Flutter. Adoro aprender sobre novas tecnologias,
+        quais problemas elas estão resolvendo e como posso usá-las para criar
+        produtos melhores e escaláveis.
+        <br />
+        <span className="more-text">Veja mais dos meus trabalhos:</span>
+        <SocialIcons />
       </p>
-      <SocialIcons />
       <Courses />
     </header>
   </div>

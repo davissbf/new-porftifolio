@@ -1,7 +1,7 @@
 import React from 'react';
 import { SiGithub } from 'react-icons/si';
 import { GrLinkedin } from 'react-icons/gr';
-import { FaShoppingBag } from 'react-icons/fa';
+import { MdWeb } from 'react-icons/md';
 
 const SocialIcons = () => (
   <div className="social-icons">
@@ -32,7 +32,7 @@ const SocialIcons = () => (
       rel="noreferrer"
     >
       <i>
-        <FaShoppingBag />
+        <MdWeb />
       </i>
     </a>
   </div>

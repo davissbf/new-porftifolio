@@ -13,7 +13,7 @@ function ImageSection() {
         </h4>
         <p className="about-text">
           Em 2020, concluí com sucesso meu curso de Técnico em Informática.
-          Estou na FACULDADE, cursando Sistemas de Informação e no SENAI
+          Estou na UNIVERSIDADE, cursando Sistemas de Informação e no SENAI
           TAGUATINGA-DF cursando Técnico de Informatica para Internet.
         </p>
         <div className="about-details">
@@ -30,7 +30,17 @@ function ImageSection() {
             <p>: Ceilândia</p>
           </div>
         </div>
-        <button className="btn">Download Curriculum</button>
+        <div className="btn-div">
+          <div className="btn">
+            <a
+              href="https://drive.google.com/file/d/1tH1AtVgKBMdt0d2mTurHAVoJVvtfLgh-/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Curriculum
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

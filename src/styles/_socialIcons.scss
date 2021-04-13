@@ -4,32 +4,31 @@
   justify-content: center;
   text-align: center;
 
-  .link-item{
+  .link-item {
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: #292627;
+    background: #1d1a1b;
     margin: 10px;
     border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
+    box-shadow: 0 5px 15px -5px #000000f1;
     overflow: hidden;
     position: relative;
 
     i {
-      color: rgb(0, 183, 255);
+      color: #037FFF;
       line-height: 90px;
       font-size: 26px;
       transition: 0.2s linear;
     }
 
+    &:hover i {
+      transform: scale(1.3);
+      color: #1d1a1b;
+    }
   }
 
-  .link-item:hover i {
-    transform: scale(1.3);
-    color: #f1f1f1;
-  }
-
-  .link-item::before {
+  ::before {
     content: "";
     position: absolute;
     width: 120%;
@@ -38,23 +37,22 @@
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
-    z-index: 1;
   }
 
-  .link-item:hover::before {
+  :hover::before {
     animation: btnAnimation 0.7s 1;
     top: -10%;
     left: -10%;
   }
 
   @keyframes btnAnimation {
-    0%{
+    0% {
       left: -110%;
       top: 90%;
-    }50%{
+    }50% {
       left: 10%;
       top: -30%;
-    }100%{
+    }100% {
       top: -10%;
       left: -10%;
     }
